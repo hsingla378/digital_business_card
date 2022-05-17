@@ -1,13 +1,99 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  background-color: #1C1C1C;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.allContent{
+  max-width: 500px;
+  text-align: center;
+  background-color: #23252C;
+}
+
+.mainContent{
+  border: none;
+  border-radius: 50px;
+  padding: 8px;
+}
+
+#profileName{
+  font-size: 25px;
+  line-height: 25.81px;
+}
+
+
+#designation{
+  color: #F3BF99;
+  font-size: 12.8px;
+  line-height: 14.19px;
+  font-size: 16px;
+}
+
+#websiteLink{
+  font-size: 10.24px;
+  color: #F5F5F5;
+  line-height: 16px;
+  font-size: 13px;
+}
+
+button{
+  padding: 10px 30px;
+  border: none;
+  background-color: white;
+  text-align: center;
+  font-size: 15px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#linkedinButton{
+  background-color: #5093E2;
+  color: white;
+}
+
+#bioContent{
+  padding: 20px;
+}
+
+#bioContent > h2{
+  text-align: left;
+  color: #F5F5F5;
+  font-size: 20px;
+  line-height: 21px;
+}
+
+#bioContent > p{
+  text-align: left;
+  color: #DCDCDC;
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+#footer{
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 80px;
+  background-color: #161619;
+}
+
+img{
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
 }
