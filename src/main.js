@@ -5,7 +5,7 @@ import profileImage from "../src/images/himanshu.jpg"
 export default function MainContent() {
     return (
         <main>
-                        <img src={profileImage} alt="Himanshu Singla" width="100%"></img>
+            <img src={profileImage} alt="Himanshu Singla" width="100%"></img>
 
             <div className="mainContent">
                 <h1 id="profileName">Himanshu Singla</h1>
